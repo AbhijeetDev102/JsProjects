@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    border: 5px solid rebeccapurple;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.crs{
+    border: 20px solid white;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all ease 0.07s;
+     
+    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 100px;
+    transition: all ease .2s;
+    mix-blend-mode: difference;
+    transform: scale(0);
+    
+}
+
