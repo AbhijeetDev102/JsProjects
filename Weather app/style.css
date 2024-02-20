@@ -12,14 +12,23 @@ html, body{
     justify-content: center;
 }
 
+.temp-min-max{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.min-max h1{
+    font-size: 16px;
+    text-align: center;
+}
 .card{
-    height: 350px;
+    /* height: 420px; */
     width: 300px;
     border: 1px solid gray;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    background:linear-gradient(rgb(255, 150, 65),rgb(122, 255, 182));
+    background:linear-gradient(rgb(103, 255, 65),rgb(122, 217, 255));
 }
 
 .card .search{
@@ -56,10 +65,9 @@ html, body{
 }
 
 .weather{
-    color: white;
+    color:black;
     padding: 20px auto;
-    /* border: 1px solid black; */
-    margin: 30px;
+    margin: 30px 0 0 0;
 }
 
 .weather img{
